@@ -370,7 +370,7 @@ def execute_query():
 if __name__ == "__main__":
     output_location = "./data/postingsListOutput.json"
     corpus_file = "./data/input_corpus.txt"
-    username_hash = hashlib.md5("ankitnig".encode()).hexdigest()
+    username_hash = hashlib.md5("deepthic".encode()).hexdigest()
 
     runner = ProjectRunner()
 
